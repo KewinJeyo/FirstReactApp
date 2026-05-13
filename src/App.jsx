@@ -14,11 +14,11 @@ function App() {
       <section className='navbar'>
         <nav>
           <h3>Nexcent</h3>
-          <Link to="/">Home</Link> 
-          <Link to="/Features">Features</Link>
-          <Link to="/Community">Community</Link>
-          <Link to="/Blog">Blog</Link>
-          <Link to="/Pricing">Pricing</Link>
+          <Link className='navtext' to="/">Home</Link> 
+          <Link  className='navtext' to="/Features">Features</Link>
+          <Link  className='navtext' to="/Community">Community</Link>
+          <Link  className='navtext' to="/Blog">Blog</Link>
+          <Link  className='navtext' to="/Pricing">Pricing</Link>
           <button>Register Now</button>
         </nav>
       </section>
