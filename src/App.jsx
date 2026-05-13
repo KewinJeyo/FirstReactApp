@@ -11,21 +11,26 @@ function App() {
   return (
     <>
       <BrowserRouter>
+      <section className='navbar'>
         <nav>
+          <h3>Nexcent</h3>
           <Link to="/">Home</Link> 
           <Link to="/Features">Features</Link>
           <Link to="/Community">Community</Link>
           <Link to="/Blog">Blog</Link>
           <Link to="/Pricing">Pricing</Link>
+          <button>Register Now</button>
         </nav>
-
+      </section>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/Features" element={<Features />} />
           <Route path="/Community" element={<Community/>} />
           <Route path="/Blog" element={<Blog />} />
           <Route path="/Pricing" element={<Pricing />} />
+          
         </Routes>
+      
       </BrowserRouter>   
     </>
   )
