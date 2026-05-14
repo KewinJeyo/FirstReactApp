@@ -1,3 +1,4 @@
+import "../styles/Discover.css"
 function Discover() {
   return (
     <section className="Discover">

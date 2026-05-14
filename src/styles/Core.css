@@ -1,0 +1,43 @@
+
+.core {
+    text-align: center;
+    padding-left: 180px;
+    background-color: #f7fafc;
+}
+
+.Title {
+    padding: 100px 0px;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+p {
+    width: 50%;
+    text-align: left;
+}
+
+.fTitle {
+    color: black;
+    text-align: left;
+}
+
+.Para {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 20%;
+    color: #4a4a4a;
+    ;
+}
+
+.list {
+    text-align: left;
+    margin-left: 50px;
+    list-style: none;
+    color: #4a4a4a;
+    ;
+}
+
+li {
+    padding: 5px 0px;
+}
