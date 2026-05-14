@@ -11,7 +11,7 @@
     font-weight: 500;
 }
 
-p {
+.Para p {
     width: 50%;
     text-align: left;
 }
@@ -27,7 +27,6 @@ p {
     align-items: center;
     padding-right: 20%;
     color: #4a4a4a;
-    ;
 }
 
 .list {
