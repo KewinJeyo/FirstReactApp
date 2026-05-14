@@ -6,6 +6,7 @@ import Community from './pages/Community'
 import Blog from './pages/Blog'
 import Pricing from './pages/Pricing'
 
+
 function App() {
 
   return (

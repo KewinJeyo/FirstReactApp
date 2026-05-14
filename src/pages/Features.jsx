@@ -1,9 +1,13 @@
 import React from 'react'
+import Discover from '../components/Discover'
+import Core from '../components/Core'
+
 
 function Features () {
   return (
     <div>
-      <h2>Features</h2>
+      <Discover />
+      <Core />
     </div>
   )
 }
